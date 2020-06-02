@@ -1,0 +1,228 @@
+.sacola {
+	background-image: url(../img/sacola.png);
+	background-repeat: no-repeat;
+	background-position: top-right;
+	
+	font-size: 14px;
+	padding-right: 35px;
+	text-align: center;
+	width: 140px;
+
+	position: absolute;
+	top:0;
+	right: 50px;
+}
+
+.menu-opcoes {
+	margin-right:50px;
+}
+
+.menu-opcoes ul {
+	font-size: 15px;
+}
+
+.menu-opcoes a {
+	color: #003366;
+}
+
+.menu-opcoes a:hover {
+	color: #007DC6;
+}
+
+.menu-opcoes a:active {
+	color: #867DC6;
+}
+
+ul {
+	list-style-type:none;
+	padding-left: 0px;
+}
+
+
+body {
+	margin:0;
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+	position: relative;
+}
+
+form h2 {
+	text-align: center;
+}
+
+.busca, .menu-departamentos {
+	background-color: #DCDCDC;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+	margin-right: 10px;
+	width: 230px;
+	float: left;
+}
+
+input[type="search"] {
+	position: relative;
+	left: 20px;
+	bottom: 10px;
+}
+
+.menu-departamentos {
+	clear: left;
+}
+
+.busca, .busca form, .menu-departamentos {
+	margin: 0px 10px 10px 10px;
+}
+
+.menu-departamentos li {
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+
+.menu-departamentos a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.busca input {
+	width: 170px;
+}
+
+
+.menu-opcoes {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.painel img {
+	margin-left:20px;
+	height: 100px;
+	widht: 100px;
+}
+
+.painel {
+	margin:10px;
+	padding: 10px;
+	width: 400px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px #999;
+}
+
+.novidades {
+	margin-bottom:30px;
+	float: left;
+	background-color: #F5DCDC;
+}
+
+.mais-vendidos {
+	margin-bottom:30px;
+	margin-right: 43px;
+	float: right;
+	background-color: #DCDCf5;
+}
+
+.mais-vendidos li:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0px 5px #333;
+	transform: scale(1.2) rotate(-5deg);
+	transition: 0.7s;
+}
+
+.mais-vendidos li:nth-child(2n):hover {
+	transform:scale(1.2) rotate(5deg);
+}
+
+.novidades li:nth-child(2n):hover {
+	transform:scale(1.2) rotate(5deg);
+}
+
+.novidades li:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 5px #333;
+	transition: 0.9s;
+	transform: scale(1.2) rotate(-5deg);
+}
+
+
+.painel li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+
+	margin: 2px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	transition: 0.7s;
+}
+
+.painel h2 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 2px #FFF;
+	margin-bottom: 10px;
+}
+
+.painel a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+footer {
+		background-color:black;
+		clear: both;
+		min-width: 1280px;
+	
+}
+
+footer .container {
+	position: relative;
+}
+
+
+
+.social {
+	position: absolute;
+	bottom: 40px;
+	right: 0px;
+}
+
+td img{
+	height: 32px;
+	width: 32px;
+}
+
+.social a{
+	height: 32px;
+	width: 32px;
+	display:block;
+}
+
+.social td {
+	float:left;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.menu-departamentos li ul {
+	display:none;
+}
+
+.menu-departamentos li:hover ul {
+	display:block;
+}
+
+.menu-departamentos ul ul li {
+	background-color: #DCDCDC;
+}
+
+

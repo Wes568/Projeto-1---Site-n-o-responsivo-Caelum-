@@ -1,0 +1,9 @@
+.menu-opcoes ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
